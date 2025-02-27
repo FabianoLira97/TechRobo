@@ -1,0 +1,115 @@
+/*Estiização do header*/
+header {
+    background-color: rgb(49, 92, 111);
+    
+}
+
+.logo {
+    max-width: 50%;      
+    height: auto;         /* Mantém a proporção original da imagem */
+    width: 70px;  
+}
+
+/* Garantir que o banner ocupe 100% da largura */
+.banner {
+    width: 100%;            
+    margin: 0;              
+    padding: 0;             
+    overflow: hidden;       
+}
+
+/* Garantir que a imagem dentro do banner ocupe toda a largura*/
+.banner img {
+    width: 100%;            
+    height: auto;           
+    display: block;         
+}
+
+/* Ajustes para telas menores */
+@media screen and (max-width: 768px) {
+    .banner {
+        width: 100%;        /* Garante que o banner ocupe 100% da largura em telas menores */
+    }
+
+    .banner img {
+        width: 100%;        /* A imagem também vai ocupar 100% da largura */
+        height: auto;       /* Mantém a proporção correta */
+    }
+}
+
+/* Estilização da DIV do header*/
+.divHeader {
+    position: relative;
+    margin: auto;
+}
+
+/* Estilização do menu do site*/
+nav{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+nav li{
+display: inline;
+color: white;
+font-size: 25;
+margin-right: 15px;
+}
+
+/*Estilização da sessão sobre nós*/
+.sobre_nos{
+ margin: 0;
+ background-color: white;
+ text-align: justify;
+ width: 80%;
+ margin-left: 10%;
+}
+
+
+h2{
+    clear: left;
+    margin-top: 460px;
+    text-align: center;
+    color: white;
+    background:  rgb(49, 92, 111);
+    font-size: 35;
+}
+
+p{
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 92, 111);
+    margin-top:-10;
+    
+}
+
+.img_sobrenos{
+    width: 10%;
+    margin-top: -40px;
+
+}
+
+.img_sobrenos{
+    width: 15%;
+    float: left;
+    margin: 0 40px 0 0;
+    margin-left :10% ;
+
+}
+.titulo_sobre{
+    clear: left;
+    text-align: center;
+}
+/*estilização section nosso estabelecimento*/
+.mapaGeral{
+    padding-left: 20%;
+    background: linear-gradient();
+}
+.mapaGeral p{
+    text-align: center;
+}
+.mapa{
+    margin: auto;
+   
+}
